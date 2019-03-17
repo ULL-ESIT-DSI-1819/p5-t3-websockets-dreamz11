@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 //Listen on port 3000
 //server = app.listen(3000)
 
-server = app.listen(8080, ip.address(), function () {
+server = app.listen(process.env.PORT || 3000, function() {
 
     var host = server.address().address
     var port = server.address().port

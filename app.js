@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-
+var ip= require('ip')
 
 //set the template engine ejs
 app.set('view engine', 'ejs')
@@ -15,7 +15,18 @@ app.get('/', (req, res) => {
 })
 
 //Listen on port 3000
-server = app.listen(3000)
+//server = app.listen(3000)
+
+server = app.listen(3000, ip.address(), function () {
+
+    var host = server.address().address
+    var port = server.address().port
+    
+    console.log('Example app listening at http://%s:%s', host, port)
+    
+    })
+
+
 
 
 

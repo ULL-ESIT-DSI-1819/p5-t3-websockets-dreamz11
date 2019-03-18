@@ -1,20 +1,15 @@
 Simple App Chat
 ===================
 
+Servidor de chat ejecutado en la maquina del iaas:
 
-Hey! Here is my first application using node.js (express) and socket.io. It is a simple **chat app**. 
-
-You can read the medium blog post to follow the explanations : https://medium.com/@noufel.gouirhate/build-a-simple-chat-app-with-node-js-and-socket-io-ea716c093088
-
-# Run App
-
-1) Download Repo
-
-2) Install [Node.JS](https://nodejs.org/en/) 
-
-3) Install Dependencies - NPM Install
+![](Screenshot from 2019-03-18 11-01-07.png)
 
 
-# Run NPM START 
 
-and browse https://localhost:port
+Servidor de chat ejecutado en Heroku:
+
+![](Screenshot from 2019-03-18 11-04-04.png)
+
+
+![](Screenshot from 2019-03-18 11-04-17.png)

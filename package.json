@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "Simple chat app built with node.js and socket.io",
   "main": "app.js",
+  "node": "16.x",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app"
+    "heroku-local": "heroku local web --port=5432",
+    "dev": "nodemon app",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ngrt/simpleChatApp.git"
   },
-  "author": "Noufel Gouirhate",
+  "author": "ULL alumno. Basado en Gouirhate",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ngrt/simpleChatApp/issues"

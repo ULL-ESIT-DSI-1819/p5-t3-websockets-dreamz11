@@ -5,6 +5,7 @@
   "main": "app.js",
   "node": "16.x",
   "scripts": {
+    "heroku-browse": "heroku open",
     "heroku-create": "heroku create ull-chat",
     "heroku-local": "heroku local web --port=5432",
     "dev": "nodemon app",

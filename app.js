@@ -27,12 +27,8 @@ server = app.listen(process.env.PORT || 3000, function() {
     })
 
 
-
-
-
 //socket.io instantiation
 const io = require("socket.io")(server)
-
 
 //listen on every connection
 io.on('connection', (socket) => {
